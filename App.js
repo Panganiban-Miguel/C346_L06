@@ -52,7 +52,7 @@ const QuizApp = () => {
                     const correctAns2 = ''
                     const correctAns3 = ''
                     let mymessage= 'Error: Wrong password';
-                    if (q1 === correctAns1) {
+                    if (q1 === correctAns1 && q2 === correctAns2 && q3 === correctAns3) {
                         mymessage = 'Yes.'
                     }
                     // Alert.alert('hello everybody my name is\n          Mark Edward Fishbach')
